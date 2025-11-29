@@ -1,8 +1,12 @@
 [package]
 name = "sxm"
-version = "0.1.0"
-edition = "2024"
-license = "MIT"
-description = "A Stream X-Machine (SXM) library for Rust"
+version = "0.0.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A Stream X-Machine library for Rust"
+repository = "https://github.com/Ruben1729/sxm/"
+documentation = "https://docs.rs/sxm"
+keywords = ["fsm", "state-machine", "embedded", "formal-verification"]
+categories = ["embedded", "data-structures"]
 
 [dependencies]
