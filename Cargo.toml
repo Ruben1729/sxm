@@ -2,16 +2,15 @@
 name = "sxm"
 version = "0.0.1"
 edition = "2021"
+authors = ["Ruben <Ruben1729@users.noreply.github.com>"]
+description = "A Stream X-Machine library for formal modeling, visualization, and model-based testing."
 license = "MIT OR Apache-2.0"
-description = "A Stream X-Machine library for Rust"
+readme = "README.md"
 repository = "https://github.com/Ruben1729/sxm/"
 documentation = "https://docs.rs/sxm"
-keywords = ["fsm", "state-machine", "embedded", "formal-verification"]
-categories = ["embedded", "data-structures"]
-
-[features]
-default = ["std"]
-std = []
+keywords = ["state-machine", "model-based-testing", "formal-methods", "sxm", "testing"]
+categories = [ "development-tools::testing", "science", "data-structures"]
 
 [dependencies]
-rand = { version = "0.9.2", default-features = false }
+
+[dev-dependencies]
