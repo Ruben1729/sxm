@@ -9,4 +9,9 @@ documentation = "https://docs.rs/sxm"
 keywords = ["fsm", "state-machine", "embedded", "formal-verification"]
 categories = ["embedded", "data-structures"]
 
+[features]
+default = ["std"]
+std = []
+
 [dependencies]
+rand = { version = "0.9.2", default-features = false }
